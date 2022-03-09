@@ -1,0 +1,130 @@
+
+/* 
+header
+ */
+.head00{
+    height: 200px;
+    background-color: rebeccapurple;
+    margin-left:5%;
+    width: 90%;
+    padding:0;
+}
+
+
+/* 
+NavBar
+*/
+.navibar {
+    /* background-color: blue;
+    height: 10%; */
+    width: 90%;
+    position: sticky;
+    top:1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    z-index: 100;
+}
+
+.navibar > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.navibar li {
+    float: left;
+  }
+  
+.navibar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.navibar li a:hover {
+    background-color: #111;
+  }
+
+
+/* 
+Panel containing all the content
+*/
+.main_panel{
+    background-color: #0ad;
+    width: 84%;
+    position: relative;
+    z-index: -1;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-flow: column;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.main_panel>h1{
+    color: rgb(0, 0, 0);
+}
+
+
+/* 
+Chapter div 
+A section inside the main panel, ideally talking about an independent topic
+*/
+
+.chapter{
+    display: block;
+    background-color: aliceblue;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-bottom: 3%;
+}
+
+.chapter h1{
+    font-family:sans-serif;
+    font-size: xx-large;
+    color: black;
+}
+
+.chapter h1:after
+{
+    content:' ';
+    display:block;
+    border:1px solid rgba(0, 0, 0, 0.411);
+}
+
+.chapter h2{
+    font-family:sans-serif;
+    font-size: x-large;
+    margin-bottom: 1%;
+    color:black;
+}
+
+.chapter p{
+    margin-top: 0;
+    margin-left: 1%;
+    margin-right: 1%;
+    color: black;
+    text-align: justify;
+}
+
+
+/* 
+Body 
+*/
+body {
+    background-color: bisque;
+    margin:0;
+    padding: 0;
+    /* display: flex; */
+    /* flex-flow: column; */
+}
+
+
+
